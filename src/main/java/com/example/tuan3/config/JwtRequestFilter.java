@@ -52,7 +52,6 @@ public class JwtRequestFilter extends OncePerRequestFilter {
                     List<SimpleGrantedAuthority> authorities = roles.stream()
                             .map(SimpleGrantedAuthority::new)
                             .collect(Collectors.toList());
-
                     // Tạo token xác thực
                     UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(
                             username,

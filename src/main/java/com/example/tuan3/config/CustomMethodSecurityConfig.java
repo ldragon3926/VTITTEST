@@ -26,10 +26,8 @@ public class CustomMethodSecurityConfig extends GlobalMethodSecurityConfiguratio
             @Override
             protected MethodSecurityExpressionOperations createSecurityExpressionRoot(
                     Authentication authentication, MethodInvocation invocation) {
-
                 ServletRequestAttributes attr = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
                 HttpServletRequest request = attr != null ? attr.getRequest() : null;
-
                 CustomMethodSecurityExpressionRoot root =
                         new CustomMethodSecurityExpressionRoot(authentication, rolePermissionConfig);
 

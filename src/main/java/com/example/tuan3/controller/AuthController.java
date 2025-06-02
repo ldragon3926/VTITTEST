@@ -42,7 +42,6 @@ public class AuthController {
     public ResponseEntity<?> logout(HttpServletRequest request) {
         String token = jwtUtil.extractTokenFromRequest(request);
         Instant expiry = jwtUtil.extractExpiration(token).toInstant();
-
         TokenBlackList tokenBlackList = new TokenBlackList();
         tokenBlackList.setToken(token);
         tokenBlackList.setExpiryDate(expiry);
