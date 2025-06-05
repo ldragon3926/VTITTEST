@@ -17,7 +17,7 @@ import static javax.crypto.Cipher.SECRET_KEY;
 @Component
 public class JwtUtil {
     private final Key key = Keys.hmacShaKeyFor("my-very-secure-and-long-secret-key!123".getBytes());
-    private final long EXPIRATION_TIME = 1000 * 60 * 5;
+    private final long EXPIRATION_TIME = 1000 * 60 * 60 * 24;
 
     public String generateToken(UserDetails userDetails) {
         return Jwts.builder().setSubject(userDetails.getUsername())
