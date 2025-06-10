@@ -34,6 +34,8 @@ public class Post {
     private LocalDateTime updatedAt;
     @Column(name = "status")
     private boolean status;
+
+
     @ManyToOne
     @JoinColumn(name = "user_id", referencedColumnName = "id")
     private User user;
