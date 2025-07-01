@@ -30,7 +30,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/auth/**").permitAll()
                         .requestMatchers(HttpMethod.GET, "/v1/library/**").hasAuthority("ROLE_ADMIN")
-                        .requestMatchers(HttpMethod.POST, "/v1/library/**").hasAuthority("ROLE_ADMIN")
+                        .requestMatchers(HttpMethod.POST, "/v1/library/**   ").hasAuthority("ROLE_ADMIN")
                         .requestMatchers(HttpMethod.PUT, "/v1/library/**").hasAuthority("ROLE_ADMIN")
                         .requestMatchers(HttpMethod.DELETE, "/v1/library/**").hasAuthority("ROLE_ADMIN")
                         .anyRequest().authenticated()

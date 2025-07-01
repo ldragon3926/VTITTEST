@@ -9,6 +9,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.time.LocalDate;
 import java.util.HashSet;
@@ -18,6 +19,7 @@ import java.util.Set;
 @Getter
 @Setter
 public class UserSet {
+    private PasswordEncoder passwordEncoder;
     private Long id;
     @NotBlank(message = "Không được để CCCD trống")
     private String identityNumber;
@@ -45,7 +47,8 @@ public class UserSet {
         user.setId(this.getId());
         user.setIdentityNumber(this.getIdentityNumber());
         user.setUsername(this.getUsername());
-        user.setPassword(this.getPassword());
+        String rawPassword = passwordEncoder.encode(this.getPassword());
+        user.setPassword(rawPassword);
         user.setFullname(this.getFullname());
         user.setAge(this.getAge());
         user.setBirthday(this.getBirthday());
