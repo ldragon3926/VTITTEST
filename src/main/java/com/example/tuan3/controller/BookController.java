@@ -99,7 +99,6 @@ public class BookController {
                                         @RequestParam(defaultValue = "3") int size) {
         Pageable pageable = PageRequest.of(page, size);
 
-
         Specification<Book> bookSpecification = Specification.where(BookSpecifications.hasCode(code))
                 .and(BookSpecifications.hasDescription(description))
                 .and(BookSpecifications.hasTitle(title))

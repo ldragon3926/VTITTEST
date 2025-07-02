@@ -18,6 +18,13 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 public class SecurityConfig {
 
+    final String[] PUBLIC_ENDPOINTS = {
+            "/auth/token",
+            "/auth/login",
+            "/auth/logout",
+            "/swagger-ui.html",
+            "/swagger-ui/**",
+    };
     private final JwtRequestFilter jwtRequestFilter;
 
     public SecurityConfig(JwtRequestFilter jwtRequestFilter) {
@@ -28,7 +35,7 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/auth/**").permitAll()
+                        .requestMatchers(PUBLIC_ENDPOINTS).permitAll()
                         .requestMatchers(HttpMethod.GET, "/v1/library/**").hasAuthority("ROLE_ADMIN")
                         .requestMatchers(HttpMethod.POST, "/v1/library/**   ").hasAuthority("ROLE_ADMIN")
                         .requestMatchers(HttpMethod.PUT, "/v1/library/**").hasAuthority("ROLE_ADMIN")

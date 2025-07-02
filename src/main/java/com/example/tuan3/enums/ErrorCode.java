@@ -1,9 +1,9 @@
 package com.example.tuan3.enums;
 
 import lombok.Getter;
+import lombok.Setter;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
-
 
 @Getter
 public enum ErrorCode {

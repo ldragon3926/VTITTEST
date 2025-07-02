@@ -6,6 +6,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
@@ -15,7 +16,5 @@ public interface RoleRepository extends JpaRepository<Role, Long> {
 
     @Query(value = "select name, description from roles  where status = 1", nativeQuery = true)
     Page<RoleDTO> getPhanTrang(Pageable pageable);
-
-
-
+//    Role findRoleByNameAndIsDeleteFalse();
 }

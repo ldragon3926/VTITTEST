@@ -47,7 +47,7 @@ public class Book {
     private Integer quantity;
     @Column(name = "status")
     private boolean status;
-@ManyToMany
+    @ManyToMany
     @JoinTable(name = "book_category",
     joinColumns = @JoinColumn(name = "book_id"),
     inverseJoinColumns = @JoinColumn(name = "category_id"))
