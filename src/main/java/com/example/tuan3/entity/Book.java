@@ -2,6 +2,7 @@ package com.example.tuan3.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.validator.internal.util.stereotypes.Lazy;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -47,10 +48,10 @@ public class Book {
     private Integer quantity;
     @Column(name = "status")
     private boolean status;
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(name = "book_category",
-    joinColumns = @JoinColumn(name = "book_id"),
-    inverseJoinColumns = @JoinColumn(name = "category_id"))
+            joinColumns = @JoinColumn(name = "book_id"),
+            inverseJoinColumns = @JoinColumn(name = "category_id"))
     private Set<Category> category = new HashSet<>();
 
 

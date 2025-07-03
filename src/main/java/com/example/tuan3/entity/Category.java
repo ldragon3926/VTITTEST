@@ -28,7 +28,7 @@ public class Category {
     private String description;
     @Column(name = "status")
     private boolean status;
-    @ManyToMany(mappedBy = "category")
+    @ManyToMany(mappedBy = "category", fetch = FetchType.LAZY)
     @JsonIgnore
     private Set<Book> books = new HashSet<>();
 }

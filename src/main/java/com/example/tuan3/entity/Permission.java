@@ -33,7 +33,7 @@ public class Permission {
 
     @Column(name = "status")
     private boolean status;
-    @ManyToMany(mappedBy = "permissions")
+    @ManyToMany(mappedBy = "permissions", fetch = FetchType.LAZY)
     @JsonIgnore
     private Set<Role> roles = new HashSet<>();
 }
