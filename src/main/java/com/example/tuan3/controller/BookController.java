@@ -86,28 +86,21 @@ public class BookController {
     }
 
     @GetMapping
-    public ResponseEntity<?> searchUser(@RequestParam(required = false) String code,
-                                        @RequestParam(required = false) String description,
-                                        @RequestParam(required = false) String author,
-                                        @RequestParam(required = false) String title,
-                                        @RequestParam(required = false) String language,
-                                        @RequestParam(required = false) Integer pageCount,
-                                        @RequestParam(required = false) String publisher,
-                                        @RequestParam(required = false) String printType,
-                                        @RequestParam(required = false) Integer quantity,
+    public ResponseEntity<?> searchUser(
+            @RequestBody(required = false) Book book,
                                         @RequestParam(name = "page", defaultValue = "0", required = false) Integer page,
                                         @RequestParam(defaultValue = "3") int size) {
         Pageable pageable = PageRequest.of(page, size);
 
-        Specification<Book> bookSpecification = Specification.where(BookSpecifications.hasCode(code))
-                .and(BookSpecifications.hasDescription(description))
-                .and(BookSpecifications.hasTitle(title))
-                .and(BookSpecifications.hasAuthors(author))
-                .and(BookSpecifications.hasPageCount(pageCount))
-                .and(BookSpecifications.hasPublisher(publisher))
-                .and(BookSpecifications.hasPrintType(printType))
-                .and(BookSpecifications.hasQuantity(quantity))
-                .and(BookSpecifications.hasLanguage(language));
+        Specification<Book> bookSpecification = Specification.where(BookSpecifications.hasCode(book.getCode()))
+                .and(BookSpecifications.hasDescription(book.getDescription()))
+                .and(BookSpecifications.hasTitle(book.getTitle()))
+                .and(BookSpecifications.hasAuthors(book.getAuthors()))
+                .and(BookSpecifications.hasPageCount(book.getPageCount()))
+                .and(BookSpecifications.hasPublisher(book.getPublisher()))
+                .and(BookSpecifications.hasPrintType(book.getPrintType()))
+                .and(BookSpecifications.hasQuantity(book.getQuantity()))
+                .and(BookSpecifications.hasLanguage(book.getLanguage()));
         return ResponseUltils.success(bookRepository.findAll(bookSpecification, pageable), "ROLE_VIEW_BOOK", "Tìm danh sách sách thành công");
     }
 

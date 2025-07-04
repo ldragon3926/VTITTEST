@@ -1,25 +1,25 @@
-2025-07-03T09:31:08.957+07:00  INFO 6112 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Starting Tuan3Application using Java 17.0.12 with PID 6112 (D:\CongTyVTIT\ViettelTest-UserDB\target\classes started by ldrag in D:\CongTyVTIT\ViettelTest-UserDB)
-2025-07-03T09:31:08.961+07:00  INFO 6112 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : No active profile set, falling back to 1 default profile: "default"
-2025-07-03T09:31:09.017+07:00  INFO 6112 --- [Tuan3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-03T09:31:09.017+07:00  INFO 6112 --- [Tuan3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-03T09:31:09.931+07:00  INFO 6112 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-03T09:31:10.025+07:00  INFO 6112 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 9 JPA repository interfaces.
-2025-07-03T09:31:10.408+07:00  WARN 6112 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionConfig' of type [com.example.tuan3.config.RolePermissionConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
-2025-07-03T09:31:10.409+07:00  WARN 6112 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customMethodSecurityConfig' of type [com.example.tuan3.config.CustomMethodSecurityConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
-2025-07-03T09:31:10.713+07:00  INFO 6112 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-03T09:31:10.726+07:00  INFO 6112 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-03T09:31:10.727+07:00  INFO 6112 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-07-03T09:31:10.780+07:00  INFO 6112 --- [Tuan3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
-2025-07-03T09:31:10.781+07:00  INFO 6112 --- [Tuan3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1763 ms
-2025-07-03T09:31:10.919+07:00  INFO 6112 --- [Tuan3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-03T09:31:11.023+07:00  INFO 6112 --- [Tuan3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-07-03T09:31:11.081+07:00  INFO 6112 --- [Tuan3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-03T09:31:11.427+07:00  INFO 6112 --- [Tuan3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-03T09:31:11.458+07:00  INFO 6112 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-03T09:31:11.585+07:00  INFO 6112 --- [Tuan3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@32806000
-2025-07-03T09:31:11.587+07:00  INFO 6112 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-03T09:31:11.617+07:00  WARN 6112 --- [Tuan3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-03T09:31:11.639+07:00  INFO 6112 --- [Tuan3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-07-04T14:11:31.244+07:00  INFO 15284 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Starting Tuan3Application using Java 17.0.12 with PID 15284 (D:\CongTyVTIT\ViettelTest-UserDB\target\classes started by ldrag in D:\CongTyVTIT\ViettelTest-UserDB)
+2025-07-04T14:11:31.248+07:00  INFO 15284 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : No active profile set, falling back to 1 default profile: "default"
+2025-07-04T14:11:31.286+07:00  INFO 15284 --- [Tuan3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-04T14:11:31.286+07:00  INFO 15284 --- [Tuan3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-04T14:11:32.000+07:00  INFO 15284 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-04T14:11:32.067+07:00  INFO 15284 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 9 JPA repository interfaces.
+2025-07-04T14:11:32.352+07:00  WARN 15284 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionConfig' of type [com.example.tuan3.config.RolePermissionConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-07-04T14:11:32.353+07:00  WARN 15284 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customMethodSecurityConfig' of type [com.example.tuan3.config.CustomMethodSecurityConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-07-04T14:11:32.594+07:00  INFO 15284 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-04T14:11:32.608+07:00  INFO 15284 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-04T14:11:32.609+07:00  INFO 15284 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-04T14:11:32.651+07:00  INFO 15284 --- [Tuan3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-07-04T14:11:32.652+07:00  INFO 15284 --- [Tuan3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1365 ms
+2025-07-04T14:11:32.758+07:00  INFO 15284 --- [Tuan3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-04T14:11:32.820+07:00  INFO 15284 --- [Tuan3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-07-04T14:11:32.859+07:00  INFO 15284 --- [Tuan3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-04T14:11:33.107+07:00  INFO 15284 --- [Tuan3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-04T14:11:33.136+07:00  INFO 15284 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-04T14:11:33.204+07:00  INFO 15284 --- [Tuan3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@f2514d1
+2025-07-04T14:11:33.206+07:00  INFO 15284 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-04T14:11:33.232+07:00  WARN 15284 --- [Tuan3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-04T14:11:33.247+07:00  INFO 15284 --- [Tuan3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 11.7.2
@@ -27,67 +27,70 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-03T09:31:12.812+07:00  INFO 6112 --- [Tuan3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-03T09:31:12.815+07:00  INFO 6112 --- [Tuan3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-03T09:31:13.270+07:00  INFO 6112 --- [Tuan3] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
-2025-07-03T09:31:13.315+07:00  INFO 6112 --- [Tuan3] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-03T09:31:13.553+07:00  WARN 6112 --- [Tuan3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-03T09:31:13.887+07:00 DEBUG 6112 --- [Tuan3] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtRequestFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-2025-07-03T09:31:14.030+07:00  WARN 6112 --- [Tuan3] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-07-03T09:31:14.302+07:00  INFO 6112 --- [Tuan3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-03T09:31:14.358+07:00  INFO 6112 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
-2025-07-03T09:31:14.372+07:00  INFO 6112 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Started Tuan3Application in 5.957 seconds (process running for 6.871)
-2025-07-03T09:31:29.945+07:00  INFO 6112 --- [Tuan3] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-03T09:31:29.946+07:00  INFO 6112 --- [Tuan3] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-03T09:31:29.950+07:00  INFO 6112 --- [Tuan3] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2025-07-03T09:31:29.986+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
-2025-07-03T09:31:29.998+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-07-03T09:31:30.002+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
-2025-07-03T09:31:31.369+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2025-07-03T09:31:50.812+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/post
-2025-07-03T09:31:51.295+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/post
-2025-07-03T09:31:51.354+07:00  WARN 6112 --- [Tuan3] [http-nio-8080-exec-3] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+2025-07-04T14:11:34.110+07:00  INFO 15284 --- [Tuan3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-04T14:11:34.113+07:00  INFO 15284 --- [Tuan3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-04T14:11:34.446+07:00  INFO 15284 --- [Tuan3] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-07-04T14:11:34.472+07:00  INFO 15284 --- [Tuan3] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-04T14:11:34.630+07:00  WARN 15284 --- [Tuan3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-04T14:11:34.893+07:00 DEBUG 15284 --- [Tuan3] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtRequestFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-07-04T14:11:35.019+07:00  WARN 15284 --- [Tuan3] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-07-04T14:11:35.143+07:00  INFO 15284 --- [Tuan3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-04T14:11:35.173+07:00  INFO 15284 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
+2025-07-04T14:11:35.180+07:00  INFO 15284 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Started Tuan3Application in 4.343 seconds (process running for 4.995)
+2025-07-04T14:11:53.658+07:00  INFO 15284 --- [Tuan3] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-04T14:11:53.659+07:00  INFO 15284 --- [Tuan3] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-04T14:11:53.660+07:00  INFO 15284 --- [Tuan3] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-04T14:11:53.679+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2025-07-04T14:11:53.687+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-07-04T14:11:53.689+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2025-07-04T14:11:54.743+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2025-07-04T14:12:10.066+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/book
+2025-07-04T14:12:10.350+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/book
+2025-07-04T14:12:10.382+07:00  WARN 15284 --- [Tuan3] [http-nio-8080-exec-8] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
-2025-07-03T09:32:11.654+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/post/all
-2025-07-03T09:32:11.682+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/post/all
-2025-07-03T09:32:39.181+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/book
-2025-07-03T09:32:39.191+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/book
-2025-07-03T09:32:48.967+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
-2025-07-03T09:32:48.967+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-07-03T09:32:48.968+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
-2025-07-03T09:32:49.751+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2025-07-03T09:32:58.300+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /auth/logout
-2025-07-03T09:32:58.301+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-07-03T09:32:58.301+07:00 DEBUG 6112 --- [Tuan3] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /auth/logout
-2025-07-03T09:49:53.935+07:00  INFO 6112 --- [Tuan3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-03T09:49:54.124+07:00  INFO 6112 --- [Tuan3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-03T09:49:54.146+07:00  INFO 6112 --- [Tuan3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-03T09:49:54.179+07:00  INFO 6112 --- [Tuan3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-03T09:49:54.212+07:00  INFO 6112 --- [Tuan3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-03T09:49:57.464+07:00  INFO 9448 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Starting Tuan3Application using Java 17.0.12 with PID 9448 (D:\CongTyVTIT\ViettelTest-UserDB\target\classes started by ldrag in D:\CongTyVTIT\ViettelTest-UserDB)
-2025-07-03T09:49:57.466+07:00  INFO 9448 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : No active profile set, falling back to 1 default profile: "default"
-2025-07-03T09:49:57.512+07:00  INFO 9448 --- [Tuan3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-03T09:49:57.512+07:00  INFO 9448 --- [Tuan3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-03T09:49:58.389+07:00  INFO 9448 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-03T09:49:58.466+07:00  INFO 9448 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 9 JPA repository interfaces.
-2025-07-03T09:49:58.792+07:00  WARN 9448 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionConfig' of type [com.example.tuan3.config.RolePermissionConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
-2025-07-03T09:49:58.792+07:00  WARN 9448 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customMethodSecurityConfig' of type [com.example.tuan3.config.CustomMethodSecurityConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
-2025-07-03T09:49:59.075+07:00  INFO 9448 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-03T09:49:59.089+07:00  INFO 9448 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-03T09:49:59.089+07:00  INFO 9448 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-07-03T09:49:59.137+07:00  INFO 9448 --- [Tuan3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
-2025-07-03T09:49:59.138+07:00  INFO 9448 --- [Tuan3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1624 ms
-2025-07-03T09:49:59.257+07:00  INFO 9448 --- [Tuan3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-03T09:49:59.328+07:00  INFO 9448 --- [Tuan3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-07-03T09:49:59.368+07:00  INFO 9448 --- [Tuan3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-03T09:49:59.641+07:00  INFO 9448 --- [Tuan3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-03T09:49:59.672+07:00  INFO 9448 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-03T09:49:59.760+07:00  INFO 9448 --- [Tuan3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@88333d0
-2025-07-03T09:49:59.762+07:00  INFO 9448 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-03T09:49:59.793+07:00  WARN 9448 --- [Tuan3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-03T09:49:59.814+07:00  INFO 9448 --- [Tuan3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-07-04T14:13:38.222+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/book?page=2
+2025-07-04T14:13:38.227+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/book?page=2
+2025-07-04T14:13:43.533+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/book?page=
+2025-07-04T14:13:43.537+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/book?page=
+2025-07-04T14:14:40.062+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/book?page=1
+2025-07-04T14:14:40.066+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/book?page=1
+2025-07-04T14:15:21.500+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/book?page=1
+2025-07-04T14:15:21.504+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/book?page=1
+2025-07-04T14:15:32.978+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/book
+2025-07-04T14:15:32.983+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/book
+2025-07-04T14:15:43.447+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/book
+2025-07-04T14:15:43.450+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/book
+2025-07-04T14:16:03.993+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/book
+2025-07-04T14:16:03.995+07:00 DEBUG 15284 --- [Tuan3] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/book
+2025-07-04T14:16:50.774+07:00  INFO 15284 --- [Tuan3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04T14:16:50.936+07:00  INFO 15284 --- [Tuan3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-04T14:16:50.940+07:00  INFO 15284 --- [Tuan3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-04T14:16:50.945+07:00  INFO 15284 --- [Tuan3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-04T14:16:50.950+07:00  INFO 15284 --- [Tuan3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-04T14:16:53.779+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Starting Tuan3Application using Java 17.0.12 with PID 21336 (D:\CongTyVTIT\ViettelTest-UserDB\target\classes started by ldrag in D:\CongTyVTIT\ViettelTest-UserDB)
+2025-07-04T14:16:53.781+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : No active profile set, falling back to 1 default profile: "default"
+2025-07-04T14:16:53.813+07:00  INFO 21336 --- [Tuan3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-04T14:16:53.813+07:00  INFO 21336 --- [Tuan3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-04T14:16:54.315+07:00  INFO 21336 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-04T14:16:54.367+07:00  INFO 21336 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 9 JPA repository interfaces.
+2025-07-04T14:16:54.587+07:00  WARN 21336 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionConfig' of type [com.example.tuan3.config.RolePermissionConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-07-04T14:16:54.588+07:00  WARN 21336 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customMethodSecurityConfig' of type [com.example.tuan3.config.CustomMethodSecurityConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-07-04T14:16:54.764+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-04T14:16:54.772+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-04T14:16:54.772+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-04T14:16:54.803+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-07-04T14:16:54.803+07:00  INFO 21336 --- [Tuan3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 990 ms
+2025-07-04T14:16:54.891+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-04T14:16:54.926+07:00  INFO 21336 --- [Tuan3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-07-04T14:16:54.943+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-04T14:16:55.110+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-04T14:16:55.128+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-04T14:16:55.177+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@52bdfc76
+2025-07-04T14:16:55.178+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-04T14:16:55.197+07:00  WARN 21336 --- [Tuan3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-04T14:16:55.210+07:00  INFO 21336 --- [Tuan3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 11.7.2
@@ -95,282 +98,150 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-03T09:50:00.865+07:00  INFO 9448 --- [Tuan3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-03T09:50:00.869+07:00  INFO 9448 --- [Tuan3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-03T09:50:01.277+07:00  INFO 9448 --- [Tuan3] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
-2025-07-03T09:50:01.309+07:00  INFO 9448 --- [Tuan3] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-03T09:50:01.487+07:00  WARN 9448 --- [Tuan3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-03T09:50:01.813+07:00 DEBUG 9448 --- [Tuan3] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtRequestFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-2025-07-03T09:50:01.961+07:00  WARN 9448 --- [Tuan3] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-07-03T09:50:02.125+07:00  INFO 9448 --- [Tuan3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-03T09:50:02.167+07:00  INFO 9448 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
-2025-07-03T09:50:02.177+07:00  INFO 9448 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Started Tuan3Application in 5.26 seconds (process running for 6.311)
-2025-07-03T09:50:08.604+07:00  INFO 9448 --- [Tuan3] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-03T09:50:08.605+07:00  INFO 9448 --- [Tuan3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-03T09:50:08.606+07:00  INFO 9448 --- [Tuan3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-07-03T09:50:08.622+07:00 DEBUG 9448 --- [Tuan3] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /auth/logout
-2025-07-03T09:50:08.630+07:00 DEBUG 9448 --- [Tuan3] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-07-03T09:50:08.631+07:00 DEBUG 9448 --- [Tuan3] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /auth/logout
-2025-07-03T09:50:08.773+07:00  WARN 9448 --- [Tuan3] [http-nio-8080-exec-1] o.m.jdbc.message.server.ErrorPacket      : Error: 1146-42S02: Table 'tuan3.token_black_list' doesn't exist
-2025-07-03T09:50:08.774+07:00  WARN 9448 --- [Tuan3] [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
-2025-07-03T09:50:08.775+07:00 ERROR 9448 --- [Tuan3] [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : (conn=182) Table 'tuan3.token_black_list' doesn't exist
-2025-07-03T09:50:08.776+07:00  INFO 9448 --- [Tuan3] [http-nio-8080-exec-1] o.h.e.internal.DefaultLoadEventListener  : HHH000327: Error performing load command
+2025-07-04T14:16:55.895+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-04T14:16:55.897+07:00  INFO 21336 --- [Tuan3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-04T14:16:56.172+07:00  INFO 21336 --- [Tuan3] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-07-04T14:16:56.193+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-04T14:16:56.331+07:00  WARN 21336 --- [Tuan3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-04T14:16:56.543+07:00 DEBUG 21336 --- [Tuan3] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtRequestFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-07-04T14:16:56.642+07:00  WARN 21336 --- [Tuan3] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-07-04T14:16:56.743+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-04T14:16:56.773+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
+2025-07-04T14:16:56.781+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Started Tuan3Application in 3.297 seconds (process running for 3.757)
+2025-07-04T14:16:58.096+07:00  INFO 21336 --- [Tuan3] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-04T14:16:58.096+07:00  INFO 21336 --- [Tuan3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-04T14:16:58.097+07:00  INFO 21336 --- [Tuan3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-04T14:16:58.110+07:00 DEBUG 21336 --- [Tuan3] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/book?page=9
+2025-07-04T14:16:58.386+07:00 DEBUG 21336 --- [Tuan3] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/book?page=9
+2025-07-04T14:16:58.484+07:00  WARN 21336 --- [Tuan3] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
-org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [select tbl1_0.token,tbl1_0.expiry_date from token_black_list tbl1_0 where tbl1_0.token=?] [(conn=182) Table 'tuan3.token_black_list' doesn't exist] [n/a]
-	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:268) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:171) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:74) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:355) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:145) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:117) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.load(SingleIdEntityLoaderStandardImpl.java:74) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:3895) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:3884) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:604) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromCacheOrDatasource(DefaultLoadEventListener.java:590) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:560) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:544) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:206) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:289) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:241) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:110) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:69) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1229) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1217) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:210) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:161) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:150) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:113) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:150) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1030) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultMergeEventListener.lambda$entityIsDetached$0(DefaultMergeEventListener.java:413) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.engine.spi.LoadQueryInfluencers.fromInternalFetchProfile(LoadQueryInfluencers.java:109) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:411) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:214) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:152) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:136) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:89) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:854) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:840) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364) ~[spring-orm-6.2.6.jar:6.2.6]
-	at jdk.proxy4/jdk.proxy4.$Proxy128.merge(Unknown Source) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320) ~[spring-orm-6.2.6.jar:6.2.6]
-	at jdk.proxy4/jdk.proxy4.$Proxy128.merge(Unknown Source) ~[na:na]
-	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:639) ~[spring-data-jpa-3.4.5.jar:3.4.5]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.6.jar:6.2.6]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.4.5.jar:3.4.5]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.5.jar:3.4.5]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.5.jar:3.4.5]
-	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.4.5.jar:3.4.5]
-	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.4.5.jar:3.4.5]
-	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:731) ~[spring-data-commons-3.4.5.jar:3.4.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.6.jar:6.2.6]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.4.5.jar:3.4.5]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.5.jar:3.4.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.6.jar:6.2.6]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.4.5.jar:3.4.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.6.jar:6.2.6]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.6.jar:6.2.6]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.6.jar:6.2.6]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.6.jar:6.2.6]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.6.jar:6.2.6]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.6.jar:6.2.6]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.4.5.jar:3.4.5]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.6.jar:6.2.6]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.6.jar:6.2.6]
-	at jdk.proxy4/jdk.proxy4.$Proxy132.save(Unknown Source) ~[na:na]
-	at com.example.tuan3.controller.AuthController.logout(AuthController.java:49) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.6.jar:6.2.6]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.6.jar:6.2.6]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.6.jar:6.2.6]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.6.jar:6.2.6]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.6.jar:6.2.6]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.6.jar:6.2.6]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.6.jar:6.2.6]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.6.jar:6.2.6]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.40.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.6.jar:6.2.6]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.40.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at com.example.tuan3.config.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:36) ~[classes/:na]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.5.jar:6.4.5]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.5.jar:6.4.5]
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
-	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
-Caused by: java.sql.SQLSyntaxErrorException: (conn=182) Table 'tuan3.token_black_list' doesn't exist
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289) ~[mariadb-java-client-3.3.2.jar:na]
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378) ~[mariadb-java-client-3.3.2.jar:na]
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:172) ~[mariadb-java-client-3.3.2.jar:na]
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:913) ~[mariadb-java-client-3.3.2.jar:na]
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:852) ~[mariadb-java-client-3.3.2.jar:na]
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:771) ~[mariadb-java-client-3.3.2.jar:na]
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:695) ~[mariadb-java-client-3.3.2.jar:na]
-	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:93) ~[mariadb-java-client-3.3.2.jar:na]
-	at org.mariadb.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:296) ~[mariadb-java-client-3.3.2.jar:na]
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-5.1.0.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
-	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:250) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
-	... 180 common frames omitted
-
-2025-07-03T09:50:08.890+07:00  WARN 9448 --- [Tuan3] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select tbl1_0.token,tbl1_0.expiry_date from token_black_list tbl1_0 where tbl1_0.token=?] [(conn=182) Table 'tuan3.token_black_list' doesn't exist] [n/a]; SQL [n/a]]
-2025-07-03T09:50:34.135+07:00  INFO 9448 --- [Tuan3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-03T09:50:34.342+07:00  INFO 9448 --- [Tuan3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-03T09:50:34.346+07:00  INFO 9448 --- [Tuan3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-03T09:50:34.352+07:00  INFO 9448 --- [Tuan3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-03T09:50:34.357+07:00  INFO 9448 --- [Tuan3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-03T09:50:36.400+07:00  INFO 25244 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Starting Tuan3Application using Java 17.0.12 with PID 25244 (D:\CongTyVTIT\ViettelTest-UserDB\target\classes started by ldrag in D:\CongTyVTIT\ViettelTest-UserDB)
-2025-07-03T09:50:36.402+07:00  INFO 25244 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : No active profile set, falling back to 1 default profile: "default"
-2025-07-03T09:50:36.443+07:00  INFO 25244 --- [Tuan3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-07-03T09:50:36.443+07:00  INFO 25244 --- [Tuan3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-07-03T09:50:37.284+07:00  INFO 25244 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-03T09:50:37.378+07:00  INFO 25244 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 9 JPA repository interfaces.
-2025-07-03T09:50:37.718+07:00  WARN 25244 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionConfig' of type [com.example.tuan3.config.RolePermissionConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
-2025-07-03T09:50:37.719+07:00  WARN 25244 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customMethodSecurityConfig' of type [com.example.tuan3.config.CustomMethodSecurityConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
-2025-07-03T09:50:37.969+07:00  INFO 25244 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-03T09:50:37.980+07:00  INFO 25244 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-03T09:50:37.981+07:00  INFO 25244 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-07-03T09:50:38.022+07:00  INFO 25244 --- [Tuan3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
-2025-07-03T09:50:38.023+07:00  INFO 25244 --- [Tuan3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1579 ms
-2025-07-03T09:50:38.146+07:00  INFO 25244 --- [Tuan3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-03T09:50:38.195+07:00  INFO 25244 --- [Tuan3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-07-03T09:50:38.243+07:00  INFO 25244 --- [Tuan3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-03T09:50:38.537+07:00  INFO 25244 --- [Tuan3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-03T09:50:38.566+07:00  INFO 25244 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-03T09:50:38.644+07:00  INFO 25244 --- [Tuan3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@7292029c
-2025-07-03T09:50:38.646+07:00  INFO 25244 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-03T09:50:38.673+07:00  WARN 25244 --- [Tuan3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-03T09:50:38.695+07:00  INFO 25244 --- [Tuan3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+2025-07-04T14:17:02.640+07:00 DEBUG 21336 --- [Tuan3] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/book
+2025-07-04T14:17:02.645+07:00 DEBUG 21336 --- [Tuan3] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/book
+2025-07-04T14:18:03.888+07:00  INFO 21336 --- [Tuan3] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-07-04T14:18:03.891+07:00  INFO 21336 --- [Tuan3] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04T14:18:04.024+07:00  INFO 21336 --- [Tuan3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-04T14:18:04.027+07:00  INFO 21336 --- [Tuan3] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-04T14:18:04.029+07:00  INFO 21336 --- [Tuan3] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-04T14:18:04.031+07:00  INFO 21336 --- [Tuan3] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-04T14:18:04.082+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Starting Tuan3Application using Java 17.0.12 with PID 21336 (D:\CongTyVTIT\ViettelTest-UserDB\target\classes started by ldrag in D:\CongTyVTIT\ViettelTest-UserDB)
+2025-07-04T14:18:04.082+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : No active profile set, falling back to 1 default profile: "default"
+2025-07-04T14:18:04.201+07:00  INFO 21336 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-04T14:18:04.216+07:00  INFO 21336 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 9 JPA repository interfaces.
+2025-07-04T14:18:04.258+07:00  WARN 21336 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionConfig' of type [com.example.tuan3.config.RolePermissionConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-07-04T14:18:04.258+07:00  WARN 21336 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customMethodSecurityConfig' of type [com.example.tuan3.config.CustomMethodSecurityConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-07-04T14:18:04.289+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-04T14:18:04.289+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-04T14:18:04.289+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-04T14:18:04.299+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-07-04T14:18:04.299+07:00  INFO 21336 --- [Tuan3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 216 ms
+2025-07-04T14:18:04.321+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-04T14:18:04.323+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-04T14:18:04.328+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-04T14:18:04.328+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-07-04T14:18:04.331+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.mariadb.jdbc.Connection@2135eb13
+2025-07-04T14:18:04.331+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-07-04T14:18:04.331+07:00  WARN 21336 --- [Tuan3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-04T14:18:04.332+07:00  INFO 21336 --- [Tuan3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
 	Database driver: undefined/unknown
 	Database version: 11.7.2
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-03T09:50:39.693+07:00  INFO 25244 --- [Tuan3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-03T09:50:39.696+07:00  INFO 25244 --- [Tuan3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-03T09:50:40.065+07:00  INFO 25244 --- [Tuan3] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
-2025-07-03T09:50:40.093+07:00  INFO 25244 --- [Tuan3] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-03T09:50:40.266+07:00  WARN 25244 --- [Tuan3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-03T09:50:40.535+07:00 DEBUG 25244 --- [Tuan3] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtRequestFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-2025-07-03T09:50:40.657+07:00  WARN 25244 --- [Tuan3] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-07-03T09:50:40.786+07:00  INFO 25244 --- [Tuan3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-07-03T09:50:40.821+07:00  INFO 25244 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
-2025-07-03T09:50:40.828+07:00  INFO 25244 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Started Tuan3Application in 4.888 seconds (process running for 5.647)
-2025-07-03T09:52:12.193+07:00  INFO 25244 --- [Tuan3] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-03T09:52:12.194+07:00  INFO 25244 --- [Tuan3] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-03T09:52:12.196+07:00  INFO 25244 --- [Tuan3] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-07-03T09:52:12.210+07:00 DEBUG 25244 --- [Tuan3] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
-2025-07-03T09:52:12.219+07:00 DEBUG 25244 --- [Tuan3] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-07-03T09:52:12.220+07:00 DEBUG 25244 --- [Tuan3] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
-2025-07-03T09:52:13.244+07:00 DEBUG 25244 --- [Tuan3] [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2025-07-03T09:52:22.806+07:00 DEBUG 25244 --- [Tuan3] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /v1/library/post/all
-2025-07-03T09:52:23.080+07:00 DEBUG 25244 --- [Tuan3] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /v1/library/post/all
-2025-07-03T09:52:37.766+07:00 DEBUG 25244 --- [Tuan3] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /auth/logout
-2025-07-03T09:52:37.766+07:00 DEBUG 25244 --- [Tuan3] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-07-03T09:52:37.766+07:00 DEBUG 25244 --- [Tuan3] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /auth/logout
+2025-07-04T14:18:04.428+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-04T14:18:04.428+07:00  INFO 21336 --- [Tuan3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-04T14:18:04.492+07:00  INFO 21336 --- [Tuan3] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-07-04T14:18:04.589+07:00  WARN 21336 --- [Tuan3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-04T14:18:04.669+07:00 DEBUG 21336 --- [Tuan3] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtRequestFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-07-04T14:18:04.697+07:00  WARN 21336 --- [Tuan3] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-07-04T14:18:04.727+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-04T14:18:04.735+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
+2025-07-04T14:18:04.738+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Started Tuan3Application in 0.671 seconds (process running for 71.714)
+2025-07-04T14:18:04.740+07:00  INFO 21336 --- [Tuan3] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-04T14:25:31.429+07:00  INFO 21336 --- [Tuan3] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-07-04T14:25:31.431+07:00  INFO 21336 --- [Tuan3] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04T14:25:31.654+07:00  INFO 21336 --- [Tuan3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-04T14:25:31.657+07:00  INFO 21336 --- [Tuan3] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-04T14:25:31.657+07:00  INFO 21336 --- [Tuan3] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-07-04T14:25:31.659+07:00  INFO 21336 --- [Tuan3] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-07-04T14:25:31.735+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Starting Tuan3Application using Java 17.0.12 with PID 21336 (D:\CongTyVTIT\ViettelTest-UserDB\target\classes started by ldrag in D:\CongTyVTIT\ViettelTest-UserDB)
+2025-07-04T14:25:31.735+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : No active profile set, falling back to 1 default profile: "default"
+2025-07-04T14:25:31.923+07:00  INFO 21336 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-04T14:25:31.945+07:00  INFO 21336 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 9 JPA repository interfaces.
+2025-07-04T14:25:32.001+07:00  WARN 21336 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionConfig' of type [com.example.tuan3.config.RolePermissionConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-07-04T14:25:32.002+07:00  WARN 21336 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customMethodSecurityConfig' of type [com.example.tuan3.config.CustomMethodSecurityConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-07-04T14:25:32.039+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-04T14:25:32.039+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-04T14:25:32.039+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-04T14:25:32.053+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-07-04T14:25:32.053+07:00  INFO 21336 --- [Tuan3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 313 ms
+2025-07-04T14:25:32.095+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-04T14:25:32.096+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-04T14:25:32.101+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-04T14:25:32.102+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-07-04T14:25:32.105+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.mariadb.jdbc.Connection@74e0119
+2025-07-04T14:25:32.105+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-07-04T14:25:32.106+07:00  WARN 21336 --- [Tuan3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-04T14:25:32.107+07:00  INFO 21336 --- [Tuan3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 11.7.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-04T14:25:32.236+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-04T14:25:32.237+07:00  INFO 21336 --- [Tuan3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-04T14:25:32.317+07:00  INFO 21336 --- [Tuan3] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-07-04T14:25:32.446+07:00  WARN 21336 --- [Tuan3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-04T14:25:32.577+07:00 DEBUG 21336 --- [Tuan3] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtRequestFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-07-04T14:25:32.631+07:00  WARN 21336 --- [Tuan3] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-07-04T14:25:32.698+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-04T14:25:32.714+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
+2025-07-04T14:25:32.718+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Started Tuan3Application in 1.012 seconds (process running for 519.695)
+2025-07-04T14:25:32.719+07:00  INFO 21336 --- [Tuan3] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-07-04T14:25:34.105+07:00  INFO 21336 --- [Tuan3] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-07-04T14:25:34.106+07:00  INFO 21336 --- [Tuan3] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04T14:25:34.267+07:00  INFO 21336 --- [Tuan3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-04T14:25:34.268+07:00  INFO 21336 --- [Tuan3] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-04T14:25:34.269+07:00  INFO 21336 --- [Tuan3] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-07-04T14:25:34.271+07:00  INFO 21336 --- [Tuan3] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-07-04T14:25:34.324+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Starting Tuan3Application using Java 17.0.12 with PID 21336 (D:\CongTyVTIT\ViettelTest-UserDB\target\classes started by ldrag in D:\CongTyVTIT\ViettelTest-UserDB)
+2025-07-04T14:25:34.325+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : No active profile set, falling back to 1 default profile: "default"
+2025-07-04T14:25:34.444+07:00  INFO 21336 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-04T14:25:34.463+07:00  INFO 21336 --- [Tuan3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 9 JPA repository interfaces.
+2025-07-04T14:25:34.511+07:00  WARN 21336 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rolePermissionConfig' of type [com.example.tuan3.config.RolePermissionConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-07-04T14:25:34.512+07:00  WARN 21336 --- [Tuan3] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customMethodSecurityConfig' of type [com.example.tuan3.config.CustomMethodSecurityConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [projectingArgumentResolverBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-07-04T14:25:34.551+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-04T14:25:34.552+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-04T14:25:34.552+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-04T14:25:34.564+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2025-07-04T14:25:34.564+07:00  INFO 21336 --- [Tuan3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 238 ms
+2025-07-04T14:25:34.594+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-04T14:25:34.596+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-04T14:25:34.603+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-04T14:25:34.603+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-07-04T14:25:34.606+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.mariadb.jdbc.Connection@88f3ef2
+2025-07-04T14:25:34.606+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-07-04T14:25:34.606+07:00  WARN 21336 --- [Tuan3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-04T14:25:34.607+07:00  INFO 21336 --- [Tuan3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 11.7.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-04T14:25:34.808+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-04T14:25:34.809+07:00  INFO 21336 --- [Tuan3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-04T14:25:34.965+07:00  INFO 21336 --- [Tuan3] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-07-04T14:25:35.184+07:00  WARN 21336 --- [Tuan3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-04T14:25:35.353+07:00 DEBUG 21336 --- [Tuan3] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtRequestFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-07-04T14:25:35.417+07:00  WARN 21336 --- [Tuan3] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-07-04T14:25:35.488+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-04T14:25:35.506+07:00  INFO 21336 --- [Tuan3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
+2025-07-04T14:25:35.510+07:00  INFO 21336 --- [Tuan3] [restartedMain] com.example.tuan3.Tuan3Application       : Started Tuan3Application in 1.206 seconds (process running for 522.487)
+2025-07-04T14:25:35.512+07:00  INFO 21336 --- [Tuan3] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

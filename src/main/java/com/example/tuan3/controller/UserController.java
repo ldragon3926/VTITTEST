@@ -42,19 +42,16 @@ public class UserController {
     RoleRepository roleRepository;
 
     @GetMapping("/export-excel")
-public void exportExcel(HttpServletResponse response) throws IOException {
+    public void exportExcel(HttpServletResponse response) throws IOException {
         response.setContentType("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
         String headerKey = "Content-Disposition";
         String headerValue = "attachment; filename=user.xls";
         response.setHeader(headerKey, headerValue);
-
         List<User> users = userRepository.findAll();
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet("Users");
-
-
         Row headerRow = sheet.createRow(0);
-        String[] headers = {"ID", "CCCD", "Username", "Password", "Họ và tên", "Tuổi" ,"Ngày sinh", "Địa chỉ"};
+        String[] headers = {"ID", "CCCD", "Username", "Password", "Họ và tên", "Tuổi", "Ngày sinh", "Địa chỉ"};
         for (int i = 0; i < headers.length; i++) {
             Cell cell = headerRow.createCell(i);
             cell.setCellValue(headers[i]);
@@ -81,40 +78,38 @@ public void exportExcel(HttpServletResponse response) throws IOException {
     }
 
     @GetMapping
-    public ResponseEntity<?> searchUser( @RequestParam(required = false) String username,
-                                         @RequestParam(required = false) String fullname,
-                                         @RequestParam(required = false) Integer age,
-                                         @RequestParam(required = false) String address,
-                                         @RequestParam(name = "page", defaultValue = "0", required = false) Integer page,
-                                         @RequestParam(defaultValue = "3") int size){
+    public ResponseEntity<?> searchUser(
+            @RequestBody(required = false) User user,
+            @RequestParam(name = "page", defaultValue = "0", required = false) Integer page,
+            @RequestParam(defaultValue = "3") int size) {
         Pageable pageable = PageRequest.of(page, size);
-
-
-        Specification<User> userSpecification = Specification.where(UserSpecifications.hasUsername(username))
-                .and(UserSpecifications.hasFullName(fullname))
-                .and(UserSpecifications.hasAge(age))
-                .and(UserSpecifications.hasAddress(address));
-        return ResponseUltils.success(userRepository.findAll(userSpecification,pageable), "ROLE_VIEW_USER", "Tìm danh sách user thành công");
-        }
+        Specification<User> userSpecification = Specification.where(UserSpecifications.hasUsername(user.getUsername()))
+                .and(UserSpecifications.hasFullName(user.getFullname()))
+                .and(UserSpecifications.hasAge(user.getAge()))
+                .and(UserSpecifications.hasAddress(user.getAddress()));
+        return ResponseUltils.success(userRepository.findAll(userSpecification, pageable), "ROLE_VIEW_USER", "Tìm danh sách user thành công");
+    }
 
     @GetMapping("/all")
-    public ResponseEntity<?> getAll(){
-        return ResponseUltils.success(userService.findAll(),"ROLE_VIEW_USER", "Lấy tất cả danh sách user thành công");
+    public ResponseEntity<?> getAll() {
+        return ResponseUltils.success(userService.findAll(), "ROLE_VIEW_USER", "Lấy tất cả danh sách user thành công");
     }
+
     @GetMapping("/detail/{id}")
-    public ResponseEntity<?> getOne(@PathVariable(name = "id") Long id){
+    public ResponseEntity<?> getOne(@PathVariable(name = "id") Long id) {
         Optional<User> user = userService.findById(id);
         if (user.isEmpty()) {
             return ResponseUltils.error("error.user.not_found", "Người dùng không tồn tại");
         }
-        return ResponseUltils.success(userService.getOne(id),"ROLE_VIEW_USER", "Lấy user thành công");
+        return ResponseUltils.success(userService.getOne(id), "ROLE_VIEW_USER", "Lấy user thành công");
     }
+
     @PostMapping("/create")
-    public ResponseEntity<?> add(@RequestBody @Valid UserSet userSet, BindingResult bindingResult ){
+    public ResponseEntity<?> add(@RequestBody @Valid UserSet userSet, BindingResult bindingResult) {
         User newUser = new User();
-        if(bindingResult.hasErrors()){
-           String errors = bindingResult.getAllErrors().stream().map(ObjectError::getDefaultMessage).collect(Collectors.joining("; "));
-                return ResponseUltils.error("error.validation", errors);
+        if (bindingResult.hasErrors()) {
+            String errors = bindingResult.getAllErrors().stream().map(ObjectError::getDefaultMessage).collect(Collectors.joining("; "));
+            return ResponseUltils.error("error.validation", errors);
         }
         List<Role> roles = roleRepository.findAllById(userSet.getIdRoles());
         User user = userSet.dto(newUser, roles);
@@ -122,27 +117,28 @@ public void exportExcel(HttpServletResponse response) throws IOException {
     }
 
     @PutMapping("/update/{id}")
-    public ResponseEntity<?> update(@RequestBody @Valid UserSet userSet, BindingResult bindingResult, @PathVariable(name = "id") Long id ){
+    public ResponseEntity<?> update(@RequestBody @Valid UserSet userSet, BindingResult bindingResult, @PathVariable(name = "id") Long id) {
         User newUser = new User();
-        if(bindingResult.hasErrors()){
+        if (bindingResult.hasErrors()) {
             String errors = bindingResult.getAllErrors().stream().map(ObjectError::getDefaultMessage).collect(Collectors.joining("; "));
             return ResponseUltils.error("error.validation", errors);
         }
         List<Role> roles = roleRepository.findAllById(userSet.getIdRoles());
 
         User user = userSet.dto(newUser, roles);
-        return ResponseUltils.success(userService.update(user, id),"ROLE_UPDATE_USER", "Update user thành công");
+        return ResponseUltils.success(userService.update(user, id), "ROLE_UPDATE_USER", "Update user thành công");
     }
- @PutMapping("/delete/{id}")
-        public ResponseEntity<?> delete( @PathVariable(name = "id") Long id ){
-     Optional<User> user = userService.findById(id);
-     if (user.isEmpty()) {
+
+    @PutMapping("/delete/{id}")
+    public ResponseEntity<?> delete(@PathVariable(name = "id") Long id) {
+        Optional<User> user = userService.findById(id);
+        if (user.isEmpty()) {
             return ResponseUltils.error("error.user.not_found", "Người dùng không tồn tại");
         }
         User userD = userRepository.findById(id).get();
         userD.setStatus(false);
-     userService.update(userD, id);
-        return ResponseUltils.success(null,"ROLE_DELETE_USER", "Xóa user thành công");
+        userService.update(userD, id);
+        return ResponseUltils.success(null, "ROLE_DELETE_USER", "Xóa user thành công");
     }
 
 //    @DeleteMapping("/delete")
