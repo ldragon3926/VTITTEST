@@ -2440,3 +2440,8 @@ Caused by: java.sql.SQLInvalidAuthorizationSpecException: (conn=405) Access deni
 2025-07-04T15:58:21.817+07:00 DEBUG 8444 --- [Tuan3] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /auth/logout
 2025-07-04T15:58:21.818+07:00 DEBUG 8444 --- [Tuan3] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
 2025-07-04T15:58:21.818+07:00 DEBUG 8444 --- [Tuan3] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /auth/logout
+2025-07-04T17:33:09.950+07:00  INFO 8444 --- [Tuan3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04T17:33:10.133+07:00  INFO 8444 --- [Tuan3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-04T17:33:10.152+07:00  INFO 8444 --- [Tuan3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-04T17:33:10.174+07:00  INFO 8444 --- [Tuan3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-04T17:33:10.179+07:00  INFO 8444 --- [Tuan3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
