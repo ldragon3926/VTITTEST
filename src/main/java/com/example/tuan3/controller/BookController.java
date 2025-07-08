@@ -88,8 +88,8 @@ public class BookController {
     @GetMapping
     public ResponseEntity<?> searchUser(
             @RequestBody(required = false) Book book,
-                                        @RequestParam(name = "page", defaultValue = "0", required = false) Integer page,
-                                        @RequestParam(defaultValue = "3") int size) {
+            @RequestParam(name = "page", defaultValue = "0", required = false) Integer page,
+            @RequestParam(defaultValue = "3") int size) {
         Pageable pageable = PageRequest.of(page, size);
 
         Specification<Book> bookSpecification = Specification.where(BookSpecifications.hasCode(book.getCode()))
@@ -101,12 +101,12 @@ public class BookController {
                 .and(BookSpecifications.hasPrintType(book.getPrintType()))
                 .and(BookSpecifications.hasQuantity(book.getQuantity()))
                 .and(BookSpecifications.hasLanguage(book.getLanguage()));
-        return ResponseUltils.success(bookRepository.findAll(bookSpecification, pageable), "ROLE_VIEW_BOOK", "Tìm danh sách sách thành công");
+        return ResponseUltils.success(bookRepository.findAll(bookSpecification, pageable), "Tìm danh sách sách thành công");
     }
 
     @GetMapping("/all")
     public ResponseEntity<?> getAll() {
-        return ResponseUltils.success(bookService.findAll(), "ROLE_VIEW_BOOK", "Lấy tất cả danh sách sách thành công");
+        return ResponseUltils.success(bookService.findAll(), "Lấy tất cả danh sách sách thành công");
     }
 
     @GetMapping("/detail/{id}")
@@ -115,7 +115,7 @@ public class BookController {
         if (book.isEmpty()) {
             return ResponseUltils.error("error.book.not_found", "Sách không tồn tại");
         }
-        return ResponseUltils.success(bookService.getOne(id), "ROLE_VIEW_BOOK", "Lấy sách thành công");
+        return ResponseUltils.success(bookService.getOne(id), "Lấy sách thành công");
     }
 
     @PostMapping("/create")
@@ -128,7 +128,7 @@ public class BookController {
         }
         List<Category> categories = categoryRepository.findAllById(bookSet.getIdCategorys());
         Book book1 = bookSet.dto(book, categories);
-        return ResponseUltils.success(bookService.add(book1), "ROLE_CREATE_BOOK", "Thêm sách thành công");
+        return ResponseUltils.success(bookService.add(book1), "Thêm sách thành công");
     }
 
     @PutMapping("/update/{id}")
@@ -140,7 +140,7 @@ public class BookController {
         }
         List<Category> categories = categoryRepository.findAllById(bookSet.getIdCategorys());
         Book book1 = bookSet.dto(book, categories);
-        return ResponseUltils.success(bookService.update(book1, id), "ROLE_UPDATE_BOOK", "Update sách thành công");
+        return ResponseUltils.success(bookService.update(book1, id), "Update sách thành công");
     }
 
     @PutMapping("/delete/{id}")
@@ -152,6 +152,6 @@ public class BookController {
         Book bookD = bookService.findById(id).get();
         bookD.setStatus(false);
         bookService.update(bookD, id);
-        return ResponseUltils.success(null, "ROLE_DELETE_BOOK", "Xóa sách thành công");
+        return ResponseUltils.success(null, "Xóa sách thành công");
     }
 }

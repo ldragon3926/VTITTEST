@@ -87,12 +87,12 @@ public class UserController {
                 .and(UserSpecifications.hasFullName(user.getFullname()))
                 .and(UserSpecifications.hasAge(user.getAge()))
                 .and(UserSpecifications.hasAddress(user.getAddress()));
-        return ResponseUltils.success(userRepository.findAll(userSpecification, pageable), "ROLE_VIEW_USER", "Tìm danh sách user thành công");
+        return ResponseUltils.success(userRepository.findAll(userSpecification, pageable), "Tìm danh sách user thành công");
     }
 
     @GetMapping("/all")
     public ResponseEntity<?> getAll() {
-        return ResponseUltils.success(userService.findAll(), "ROLE_VIEW_USER", "Lấy tất cả danh sách user thành công");
+        return ResponseUltils.success(userService.findAll(), "Lấy tất cả danh sách user thành công");
     }
 
     @GetMapping("/detail/{id}")
@@ -101,7 +101,7 @@ public class UserController {
         if (user.isEmpty()) {
             return ResponseUltils.error("error.user.not_found", "Người dùng không tồn tại");
         }
-        return ResponseUltils.success(userService.getOne(id), "ROLE_VIEW_USER", "Lấy user thành công");
+        return ResponseUltils.success(userService.getOne(id), "Lấy user thành công");
     }
 
     @PostMapping("/create")
@@ -113,7 +113,7 @@ public class UserController {
         }
         List<Role> roles = roleRepository.findAllById(userSet.getIdRoles());
         User user = userSet.dto(newUser, roles);
-        return ResponseUltils.success(userService.add(user), "ROLE_CREATE_USER", "Thêm user thành công");
+        return ResponseUltils.success(userService.add(user), "Thêm user thành công");
     }
 
     @PutMapping("/update/{id}")
@@ -126,7 +126,7 @@ public class UserController {
         List<Role> roles = roleRepository.findAllById(userSet.getIdRoles());
 
         User user = userSet.dto(newUser, roles);
-        return ResponseUltils.success(userService.update(user, id), "ROLE_UPDATE_USER", "Update user thành công");
+        return ResponseUltils.success(userService.update(user, id), "Update user thành công");
     }
 
     @PutMapping("/delete/{id}")
@@ -138,7 +138,7 @@ public class UserController {
         User userD = userRepository.findById(id).get();
         userD.setStatus(false);
         userService.update(userD, id);
-        return ResponseUltils.success(null, "ROLE_DELETE_USER", "Xóa user thành công");
+        return ResponseUltils.success(null, "Xóa user thành công");
     }
 
 //    @DeleteMapping("/delete")

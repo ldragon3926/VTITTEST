@@ -29,12 +29,12 @@ public class PostController {
     PostRepository postRepository;
     @GetMapping
     public ResponseEntity<?> view(@RequestParam(name = "page", defaultValue = "0", required = false) Integer page){
-        return ResponseUltils.success(postService.phanTrang(page),"ROLE_VIEW_POST","Lấy danh sách phân trang thành công");
+        return ResponseUltils.success(postService.phanTrang(page),"Lấy danh sách phân trang thành công");
     }
 
     @GetMapping("/all")
     public ResponseEntity<?> getAll(){
-        return ResponseUltils.success(postService.findAll(),"ROLE_VIEW_POST", "Lấy tất cả danh sách post thành công");
+        return ResponseUltils.success(postService.findAll(),"Lấy tất cả danh sách post thành công");
     }
     @GetMapping("/detail/{id}")
     public ResponseEntity<?> getOne(@PathVariable(name = "id") Long id){
@@ -42,7 +42,7 @@ public class PostController {
         if (post.isEmpty()) {
             return ResponseUltils.error("error.user.not_found", "Người dùng không tồn tại");
         }
-        return ResponseUltils.success(postService.getOne(id),"ROLE_VIEW_POST", "Lấy post thành công");
+        return ResponseUltils.success(postService.getOne(id), "Lấy post thành công");
     }
     @PostMapping("/create")
     public ResponseEntity<?> add(@RequestBody @Valid PostSet postSet, BindingResult bindingResult ){
@@ -52,7 +52,7 @@ public class PostController {
                 return ResponseUltils.error("error.validation", errors);
         }
         Post post = postSet.dto(newPost);
-        return ResponseUltils.success(postService.add(post), "ROLE_CREATE_POST", "Thêm post thành công");
+        return ResponseUltils.success(postService.add(post),  "Thêm post thành công");
     }
 
     @PutMapping("/update/{id}")
@@ -63,7 +63,7 @@ public class PostController {
             return ResponseUltils.error("error.validation", errors);
         }
         Post post = postSet.dto(newPost);
-        return ResponseUltils.success(postService.update(post, id),"ROLE_UPDATE_POST", "Update post thành công");
+        return ResponseUltils.success(postService.update(post, id),"Update post thành công");
     }
  @PutMapping("/delete/{id}")
         public ResponseEntity<?> delete( @PathVariable(name = "id") Long id ){
@@ -74,7 +74,7 @@ public class PostController {
         Post postD = postRepository.findById(id).get();
         postD.setStatus(false);
      postService.update(postD, id);
-        return ResponseUltils.success(null,"ROLE_DELETE_POST", "Xóa post thành công");
+        return ResponseUltils.success(null, "Xóa post thành công");
     }
 
 }

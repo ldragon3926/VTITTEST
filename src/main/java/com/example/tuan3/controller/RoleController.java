@@ -32,47 +32,50 @@ public class RoleController {
     PermissionRepository permissionRepository;
 
     @GetMapping
-    public ResponseEntity<?> view(@RequestParam(name = "page", defaultValue = "0", required = false) Integer page){
-        return ResponseUltils.success(roleService.phanTrang(page),"ROLE_VIEW_ROLE_GROUP","Lấy danh sách phân trang thành công");
+    public ResponseEntity<?> view(@RequestParam(name = "page", defaultValue = "0", required = false) Integer page) {
+        return ResponseUltils.success(roleService.phanTrang(page), "Lấy danh sách phân trang thành công");
     }
+
     @GetMapping("/all")
-    public ResponseEntity<?> getAll(){
-        return ResponseUltils.success(roleService.findAll(),"ROLE_VIEW_ROLE_GROUP", "Lấy tất cả danh sách user thành công");
+    public ResponseEntity<?> getAll() {
+        return ResponseUltils.success(roleService.findAll(), "Lấy tất cả danh sách user thành công");
     }
+
     @GetMapping("/detail/{id}")
-    public ResponseEntity<?> getOne(@PathVariable(name = "id") Long id){
+    public ResponseEntity<?> getOne(@PathVariable(name = "id") Long id) {
         Optional<Role> role = roleService.findById(id);
         if (role.isEmpty()) {
             return ResponseUltils.error("error.role.not_found", "Role không tồn tại");
         }
-        return ResponseUltils.success(roleService.findById(id),"ROLE_VIEW_ROLE_GROUP", "Lấy role thành công");
-    }
-    @PostMapping("/create")
-    public ResponseEntity<?> add(@RequestBody @Valid RoleSet roleSet, BindingResult bindingResult ){
-        Role role = new Role();
-        if(bindingResult.hasErrors()){
-           String errors = bindingResult.getAllErrors().stream().map(ObjectError::getDefaultMessage).collect(Collectors.joining("; "));
-                return ResponseUltils.error("error.validation", errors);
-        }
-        List<Permission> permissionList = permissionRepository.findAllById(roleSet.getIdPermission());
-        Role role1 = roleSet.dto(role, permissionList);
-        return ResponseUltils.success(roleService.add(role1), "ROLE_CREATE_ROLE_GROUP", "Thêm role thành công");
+        return ResponseUltils.success(roleService.findById(id), "Lấy role thành công");
     }
 
-    @PutMapping("/update/{id}")
-    public ResponseEntity<?> update(@RequestBody @Valid RoleSet roleSet, BindingResult bindingResult, @PathVariable(name = "id") Long id ){
+    @PostMapping("/create")
+    public ResponseEntity<?> add(@RequestBody @Valid RoleSet roleSet, BindingResult bindingResult) {
         Role role = new Role();
-        if(bindingResult.hasErrors()){
+        if (bindingResult.hasErrors()) {
             String errors = bindingResult.getAllErrors().stream().map(ObjectError::getDefaultMessage).collect(Collectors.joining("; "));
             return ResponseUltils.error("error.validation", errors);
         }
         List<Permission> permissionList = permissionRepository.findAllById(roleSet.getIdPermission());
         Role role1 = roleSet.dto(role, permissionList);
-        return ResponseUltils.success(roleService.update(role1, id),"ROLE_UPDATE_ROLE_GROUP", "Update role thành công");
+        return ResponseUltils.success(roleService.add(role1), "Thêm role thành công");
+    }
+
+    @PutMapping("/update/{id}")
+    public ResponseEntity<?> update(@RequestBody @Valid RoleSet roleSet, BindingResult bindingResult, @PathVariable(name = "id") Long id) {
+        Role role = new Role();
+        if (bindingResult.hasErrors()) {
+            String errors = bindingResult.getAllErrors().stream().map(ObjectError::getDefaultMessage).collect(Collectors.joining("; "));
+            return ResponseUltils.error("error.validation", errors);
+        }
+        List<Permission> permissionList = permissionRepository.findAllById(roleSet.getIdPermission());
+        Role role1 = roleSet.dto(role, permissionList);
+        return ResponseUltils.success(roleService.update(role1, id), "Update role thành công");
     }
 
     @PutMapping("/delete/{id}")
-    public ResponseEntity<?> delete( @PathVariable(name = "id") Long id ){
+    public ResponseEntity<?> delete(@PathVariable(name = "id") Long id) {
         Optional<Role> role = roleService.findById(id);
         if (role.isEmpty()) {
             return ResponseUltils.error("error.role.not_found", "Role không tồn tại");
@@ -80,7 +83,7 @@ public class RoleController {
         Role roleD = roleRepository.findById(id).get();
         roleD.setStatus(false);
         roleService.update(roleD, id);
-        return ResponseUltils.success(null,"ROLE_DELETE_ROLE", "Xóa role thành công");
+        return ResponseUltils.success(null, "Xóa role thành công");
     }
 
 }
